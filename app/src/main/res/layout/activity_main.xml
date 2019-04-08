@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              android:orientation="vertical"
+                                              android:gravity="center_horizontal"
+
+                                              android:background="#FAFAFA"
+                                              tools:context="com.edu.uabc.appm.mycanvas.MainActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" android:id="@+id/cont">
+        <TextView
+                android:text="Primer Jugador: p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/P1"
+
+                android:layout_weight="1"/>
+        <TextView
+                android:text="Segundo Jugador: p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/P2"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Turno de: X"
+            android:textColor="#0E1E24"
+            android:background="#F3FEFD"
+            android:layout_marginTop="50dp"
+            android:gravity="center"/>
+
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:id="@+id/girLayout"
+            android:background="#FFFBF8">
+
+        <Button
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"
+                android:layout_column="0"
+                android:layout_row="0"/>
+        <Button
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+        <Button
+                android:id="@+id/btn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+        <Button
+                android:id="@+id/btn4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"
+                android:layout_column="0"
+                android:layout_row="1"/>
+        <Button
+                android:id="@+id/btn5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+        <Button
+                android:id="@+id/btn6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+        <Button
+                android:id="@+id/btn7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"
+                android:layout_column="0"
+                android:layout_row="2"/>
+        <Button
+                android:id="@+id/btn8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+        <Button
+                android:id="@+id/btn9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="80sp"
+                android:background="@drawable/bordes"/>
+
+    </GridLayout>
+    <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar Juego"
+            android:onClick="reset"/>
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Canvas</string>
+        <string name="next_player">Turno: %1$s</string>
+        <string name="winner">Ganador: %1$s</string>
+    <integer name="cont1">Jugador1</integer>
+    <integer name="cont"></integer>
+
+    </resources>
+
